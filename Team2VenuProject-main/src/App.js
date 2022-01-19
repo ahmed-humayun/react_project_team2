@@ -10,6 +10,7 @@ import Pricing from './components/pricing';
 import Location from './components/location';
 import Footer from './components/header_footer/Footer';
 import Schedule from './components/schedule';
+import Sports from './components/sports';
 
 class App extends Component {
   render() {
@@ -31,6 +32,10 @@ class App extends Component {
 
         <Element name="pricing">
           <Pricing/>
+        </Element>
+
+        <Element name="sports">
+          <Sports/>
         </Element>
 
         <Element name="location">
